@@ -1,5 +1,11 @@
-Gene,Expression
-BRCA1,25
-TP53,40
-MYC,60
-EFGR,50
+Animal,Weight,Age
+Dog,,3
+Cat,2,
+Rabbit,,2
+Dog,20,5
+Cow,350,7
+Horse,450,10
+Goat,35,4
+Cat,,3
+Elephant,5000,25
+Monkey,15,

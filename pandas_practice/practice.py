@@ -1,10 +1,21 @@
 import pandas as pd
-df= pd.read_csv("pandas_practice/students.csv")
+df= pd.read_csv(r"C:\python programs\pandas_practice/students.csv")
+print("Orignal Dataset")
 print(df)
-print(df.head())
-print(df.head(2))
+print("\nFirst 3 rows:")
+print(df.head(3))
+print("\nLast 3 rows:")
 print(df.tail(2))
+print("\nShape")
 print(df.shape)
-
-
-7
+print("\nCount Missing values")
+print(df.isnull().sum())
+df=df.drop_duplicates()
+print(df)
+print("\nCleaned Data")
+print(df)
+print("\nSummary Statistics")
+print(df.describe())
+print("\nDataset Info")
+print(df.info())
+print(df)
